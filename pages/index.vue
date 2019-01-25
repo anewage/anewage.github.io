@@ -7,7 +7,7 @@
           color="grey lighten-4"
           class="mb-3 elevation-2"
         >
-          <img src="/moh3.png" alt="avatar">
+          <img src="/amir.jpg" alt="avatar">
         </v-avatar>
       </div>
     </v-flex>
@@ -16,7 +16,7 @@
         <v-flex xs12>
           <div class="display-3 name-title">
             {{name}}
-          </div> 
+          </div>
         </v-flex>
         <v-flex xs6 justify-start>
           <div class="sub-heading">{{overview}}</div>
