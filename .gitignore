@@ -1,6 +1,9 @@
 # dependencies
 node_modules
 
+# WebStorm
+.idea
+
 # logs
 npm-debug.log
 
