@@ -18,6 +18,7 @@ export default {
   data () {
     return {
       links: [
+        // TODO
         // { icon: 'apps', title: 'Home', to: '/', image: '/menu.svg' },
         // { icon: 'info', title: 'About me', to: '/story', image: '/information.svg' },
         // { icon: 'school', title: 'Education', to: '/education', image: '/mortarboard.svg' },

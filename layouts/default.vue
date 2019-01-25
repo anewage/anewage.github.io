@@ -72,17 +72,18 @@ export default {
       bottomNav: 'recent',
       drawer: false,
       items: [
-        { icon: 'apps', title: 'Overview', to: '/', image: '/menu.svg' },
-        { icon: 'info', title: 'About me', to: '/story', image: '/information.svg' },
-        { icon: 'school', title: 'Education', to: '/education', image: '/mortarboard.svg' },
-        { icon: 'language', title: 'Language', to: '/language', image: '/translate.svg' },
-        { icon: 'work', title: 'Experience', to: '/experience', image: '/briefcase.svg' },
-        { icon: 'work', title: 'Projects and Research', to: '/projects', image: '/analytics.svg' },
-        { icon: 'color_lens', title: 'Skills', to: '/skills', image: '/skills.svg' },
-        { icon: 'attach_money', title: 'Honours and Awards', to: '/awards', image: '/cup.svg' },
+        // TODO
+        // { icon: 'apps', title: 'Overview', to: '/', image: '/menu.svg' },
+        // { icon: 'info', title: 'About me', to: '/story', image: '/information.svg' },
+        // { icon: 'school', title: 'Education', to: '/education', image: '/mortarboard.svg' },
+        // { icon: 'language', title: 'Language', to: '/language', image: '/translate.svg' },
+        // { icon: 'work', title: 'Experience', to: '/experience', image: '/briefcase.svg' },
+        // { icon: 'work', title: 'Projects and Research', to: '/projects', image: '/analytics.svg' },
+        // { icon: 'color_lens', title: 'Skills', to: '/skills', image: '/skills.svg' },
+        // { icon: 'attach_money', title: 'Honours and Awards', to: '/awards', image: '/cup.svg' },
         // { icon: 'attach_money', title: 'Gallery', to: '/gallery', image: '/attach.svg' },
-        { icon: 'contacts', title: 'Contact', to: '/contact', image: '/contact.svg' },
-        { icon: 'contacts', title: 'About This Site', to: '/about', image: '/question.svg' }
+        // { icon: 'contacts', title: 'Contact', to: '/contact', image: '/contact.svg' },
+        // { icon: 'contacts', title: 'About This Site', to: '/about', image: '/question.svg' }
       ],
       links: {
         cv: 'https://www.overleaf.com/project/59ce0029478e804b755b8283',
