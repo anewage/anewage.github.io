@@ -1,6 +1,6 @@
 {
-    "Name": "Mohammad Rajabi Seraji",
-    "Overview": "I am a passionate Computer Science student who's in love with seamless and perfect UI/UX design and has about 4 years of experience in developing such experiences. I'm a nerd, with a knack for good mathematic problems and a gamer, in core who has just found his affection for Game Analytics and Games User research. I'm especially interested about AI-based games user analysis and I think it might determine the future of gaming (as an industry or research area).",
+    "Name": "Amir Haghighati Maleki",
+    "Overview": "I am a graduate student in Computer Science at Western University. This webpage is under construction...",
     "Teaching": [
         {
             "title": "RA",
@@ -55,7 +55,7 @@
                     "url": "https://www.dropbox.com/s/0oepy3as5lt1v5z/NuxtVue.jpg?dl=0"
                 },
                 {
-                    "id": 2, 
+                    "id": 2,
                     "title": "Course Repo",
                     "url": "https://github.com/AUT-CEIT/vue-course.git"
                 },
@@ -232,7 +232,7 @@
                     "url": "https://www.dropbox.com/s/43q90rl8jymzzvh/Spring%20old.jpg?dl=0"
                 },
                 {
-                    "id": 3, 
+                    "id": 3,
                     "title": "Course Repo",
                     "url": "https://github.com/rajabiseraji/PHPCourse"
                 }
@@ -900,7 +900,7 @@
                         "title": "Project Report",
                         "logo": "/dropbox.svg",
                         "url": "https://www.dropbox.com/s/ycjc6tsehkrqn39/AUT%20Fund%20Management%20System%20Documentation.pdf?dl=0"
-                    }, 
+                    },
                     {
                         "id": 2,
                         "title": "Project Repo",
