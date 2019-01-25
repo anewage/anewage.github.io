@@ -32,21 +32,21 @@
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title v-text="title" class="font-weight-light"></v-toolbar-title>
       <v-spacer></v-spacer>
-      
-      <v-btn color="transparent" href="https://www.dropbox.com/sh/gi48cp7ix8i9p0c/AACM2PLBKXDaeZPRTriCsyFaa?dl=0" target="_blank">
+
+      <v-btn color="transparent" :href="links.cv" target="_blank">
         <strong>CV</strong>
       </v-btn>
-      <v-btn href="https://github.com/rajabiseraji" target="_blank" icon>
+      <v-btn :href="links.github" target="_blank" icon>
         <v-avatar size="20">
           <img src="/github.svg" alt="g">
         </v-avatar>
       </v-btn>
-      <v-btn href="https://www.linkedin.com/in/mohammad-rajabi-seraji-b59aa5a3/" target="_blank" icon>
+      <v-btn :href="links.linkedin" target="_blank" icon>
         <v-avatar tile size="20">
           <img src="/linkedin-logo.svg" alt="L">
         </v-avatar>
       </v-btn>
-      <v-btn href="https://www.instagram.com/rajabiseraji/" target="_blank" icon>
+      <v-btn :href="links.instagram" target="_blank" icon>
         <v-avatar tile size="20">
           <img src="/instagram.svg" alt="I">
         </v-avatar>
@@ -79,8 +79,14 @@ export default {
         { icon: 'contacts', title: 'Contact', to: '/contact', image: '/contact.svg' },
         { icon: 'contacts', title: 'About This Site', to: '/about', image: '/question.svg' }
       ],
+      links: {
+        cv: 'https://www.overleaf.com/project/59ce0029478e804b755b8283',
+        github: 'https://github.com/anewage',
+        linkedin: 'https://www.linkedin.com/in/amirhmaleki/',
+        instagram: 'https://www.instagram.com/amir_haghighati/'
+      },
       miniVariant: false,
-      title: 'Mohammad Rajabi Seraji'
+      title: 'Amir Haghighati Maleki'
     }
   }
 }
