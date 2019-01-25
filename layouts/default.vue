@@ -28,12 +28,12 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
-    <v-toolbar fixed app color="primary" dark :clipped-left="true">
+    <v-toolbar fixed app color="primary lighten-1" dark :clipped-left="true">
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-toolbar-title v-text="title" class="font-weight-light"></v-toolbar-title>
       <v-spacer></v-spacer>
 
-      <v-btn color="transparent" :href="links.cv" target="_blank">
+      <v-btn :href="links.cv" target="_blank" flat round>
         <strong>CV</strong>
       </v-btn>
       <v-btn :href="links.github" target="_blank" icon>
@@ -57,11 +57,16 @@
         <nuxt />
       </v-container>
     </v-content>
+    <MyFooter></MyFooter>
   </v-app>
 </template>
 
 <script>
+import MyFooter from '~/components/MyFooter'
 export default {
+  components: {
+    MyFooter
+  },
   data () {
     return {
       bottomNav: 'recent',
