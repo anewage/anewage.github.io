@@ -72,9 +72,8 @@ export default {
       bottomNav: 'recent',
       drawer: false,
       items: [
-        // TODO
-        // { icon: 'apps', title: 'Overview', to: '/', image: '/menu.svg' },
-        // { icon: 'info', title: 'About me', to: '/story', image: '/information.svg' },
+        { icon: 'apps', title: 'Overview', to: '/', image: '/menu.svg' }
+        // { icon: 'info', title: 'About me', to: '/about', image: '/information.svg' },
         // { icon: 'school', title: 'Education', to: '/education', image: '/mortarboard.svg' },
         // { icon: 'language', title: 'Language', to: '/language', image: '/translate.svg' },
         // { icon: 'work', title: 'Experience', to: '/experience', image: '/briefcase.svg' },

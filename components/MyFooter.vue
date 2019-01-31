@@ -1,8 +1,7 @@
 <template>
   <v-footer height="auto" color="primary lighten-1">
     <v-layout justify-center row wrap>
-      <span style="color: white;">To be completed soon...</span>
-      <v-btn nuxt v-for="link in links" :key="link" :to="link.to" color="white" flat round>
+      <v-btn nuxt v-for="link in links" :key="link.title" :to="link.to" color="white" flat round>
         {{ link.title }}
       </v-btn>
       <v-flex primary lighten-2 py-3 text-xs-center white--text xs12>
@@ -18,9 +17,8 @@ export default {
   data () {
     return {
       links: [
-        // TODO
-        // { icon: 'apps', title: 'Home', to: '/', image: '/menu.svg' },
-        // { icon: 'info', title: 'About me', to: '/story', image: '/information.svg' },
+        { icon: 'apps', title: 'Home', to: '/', image: '/menu.svg' }
+        // { icon: 'info', title: 'About me', to: '/about', image: '/information.svg' },
         // { icon: 'school', title: 'Education', to: '/education', image: '/mortarboard.svg' },
         // { icon: 'language', title: 'Language', to: '/language', image: '/translate.svg' },
         // { icon: 'work', title: 'Experience', to: '/experience', image: '/briefcase.svg' },
