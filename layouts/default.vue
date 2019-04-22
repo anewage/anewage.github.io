@@ -46,11 +46,6 @@
           <img src="/linkedin-logo.svg" alt="L">
         </v-avatar>
       </v-btn>
-      <v-btn :href="links.instagram" target="_blank" icon>
-        <v-avatar tile size="20">
-          <img src="/instagram.svg" alt="I">
-        </v-avatar>
-      </v-btn>
     </v-toolbar>
     <v-content>
       <v-container fill-height>
@@ -88,7 +83,6 @@ export default {
         cv: 'https://www.overleaf.com/project/59ce0029478e804b755b8283',
         github: 'https://github.com/anewage',
         linkedin: 'https://www.linkedin.com/in/amirhmaleki/',
-        instagram: 'https://www.instagram.com/amir_haghighati/'
       },
       miniVariant: false,
       title: 'Amir Haghighati Maleki'
