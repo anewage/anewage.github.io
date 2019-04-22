@@ -82,7 +82,7 @@ export default {
       links: {
         cv: 'https://www.overleaf.com/project/59ce0029478e804b755b8283',
         github: 'https://github.com/anewage',
-        linkedin: 'https://www.linkedin.com/in/amirhmaleki/',
+        linkedin: 'https://www.linkedin.com/in/amirhmaleki/'
       },
       miniVariant: false,
       title: 'Amir Haghighati Maleki'
